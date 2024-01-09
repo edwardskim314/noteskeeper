@@ -3,7 +3,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
-const uri = "mongodb+srv://test_user:cg5UcKWb1T1cSDvl@cluster0.xhvrqlk.mongodb.net/?retryWrites=true&w=majority"
+const uri = "<MONGODB_URI>"
 
 const cors = require("cors");
 const bodyParser = require('body-parser'); // middleware making object 
